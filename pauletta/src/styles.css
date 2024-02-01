@@ -1,0 +1,13 @@
+.navbar-custom {
+  background-color: darkcyan;
+  align-content: center;
+}
+
+.line-clamp-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+
+  /* truncating to 4 lines */
+  -webkit-line-clamp: 2;
+}
