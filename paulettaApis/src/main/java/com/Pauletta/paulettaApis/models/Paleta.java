@@ -33,9 +33,7 @@ public class Paleta {
 	public Paleta() {
 		
 	}
-	
-	
-	
+
 	public Paleta(int id, String name, String url, String type, String descrip, float price) {
 		super();
 		this.id = id;
@@ -45,8 +43,6 @@ public class Paleta {
 		this.descrip = descrip;
 		this.price = price;
 	}
-
-
 
 	public int getId() {
 		return id;
@@ -80,12 +76,12 @@ public class Paleta {
 		this.type = type;
 	}
 
-	public String getDesc() {
+	public String getDescrip() {
 		return descrip;
 	}
 
-	public void setDesc(String desc) {
-		this.descrip = desc;
+	public void setDescrip(String descrip) {
+		this.descrip = descrip;
 	}
 
 	public float getPrice() {
@@ -96,13 +92,14 @@ public class Paleta {
 		this.price = price;
 	}
 
-
-
 	@Override
 	public String toString() {
-		return "Popsicle [id=" + id + ", name=" + name + ", url=" + url + ", type=" + type + ", desc=" + descrip
+		return "Paleta [id=" + id + ", name=" + name + ", url=" + url + ", type=" + type + ", descrip=" + descrip
 				+ ", price=" + price + "]";
 	}
+	
+	
+	
 	
 	
 	

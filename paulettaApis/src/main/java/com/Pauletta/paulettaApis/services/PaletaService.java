@@ -26,14 +26,28 @@ public class PaletaService {
 		
 	}
 	
-	/*public ResponseEntity<Paleta> getPaletaByName(String name) {
-		
-		return new ResponseEntity<Paleta>(paletaRepository.findByName(name), HttpStatus.OK);
-		
-	}*/
 	
 	public Paleta getPaletaByName(String name) {
 		return paletaRepository.findByName(name);
 	}
 	
+	public Paleta insertPaleta(Paleta paleta) {
+		
+		return paletaRepository.save(paleta);
+		
+	}
+	
+	public Paleta updateById(Paleta request, Long id) {
+		
+		Paleta paleta = paletaRepository.findById(id).get();
+		
+		paleta.setName(request.getName());
+		paleta.setUrl(request.getUrl());
+		paleta.setType(request.getType());
+		paleta.setDescrip(request.getDescrip());
+		paleta.setPrice(request.getPrice());
+		
+		return paleta;
+		
+	}
 }
