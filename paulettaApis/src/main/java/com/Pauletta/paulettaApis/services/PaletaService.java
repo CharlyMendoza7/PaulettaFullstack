@@ -1,10 +1,14 @@
 package com.Pauletta.paulettaApis.services;
 
-import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import com.Pauletta.paulettaApis.exceptions.PaletaNotFoundException;
 import com.Pauletta.paulettaApis.models.Paleta;
 import com.Pauletta.paulettaApis.repositories.IPaletaRepository;
 
@@ -14,21 +18,26 @@ public class PaletaService {
 	@Autowired
 	IPaletaRepository paletaRepository;
 	
-	public ArrayList<Paleta> getPaletas(){
+	public List<Paleta> getPaletas(){
 		
-		return (ArrayList<Paleta>) paletaRepository.findAll();
-		
-	}
-	
-	public Paleta getPaletaById(Long id) {
-		
-		return paletaRepository.findById(id).orElse(null);
+		return paletaRepository.findAll();
 		
 	}
 	
+	public ResponseEntity<Paleta> getPaletaById(Long id) {
+		
+		//return paletaRepository.findById(id).orElse(null);
+		return ResponseEntity
+				.status(HttpStatus.OK)
+				.body(paletaRepository.findById(id)
+				.orElseThrow(PaletaNotFoundException::new));
+		
+	}
 	
-	public Paleta getPaletaByName(String name) {
-		return paletaRepository.findByName(name);
+	
+	public Optional<Paleta> getPaletaByName(String name) {
+		Optional<Paleta> paleta = Optional.ofNullable(Optional.of(paletaRepository.findByName(name)).orElse(null));
+		return paleta;
 	}
 	
 	public Paleta insertPaleta(Paleta paleta) {
@@ -47,7 +56,8 @@ public class PaletaService {
 		paleta.setDescrip(request.getDescrip());
 		paleta.setPrice(request.getPrice());
 		
-		return paleta;
+		return paletaRepository.save(paleta);
+		
 		
 	}
 }

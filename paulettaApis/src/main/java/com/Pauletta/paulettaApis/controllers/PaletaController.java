@@ -1,8 +1,10 @@
 package com.Pauletta.paulettaApis.controllers;
 
-import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -24,13 +26,13 @@ public class PaletaController {
 	private PaletaService paletaService;
 	
 	@GetMapping
-	public ArrayList<Paleta> getPaletas(){
+	public List<Paleta> getPaletas(){
 		return this.paletaService.getPaletas();
 	}
 	
 	@GetMapping("/paletaById")
 	@ResponseBody
-	public Paleta getPaletaById(@RequestParam Long id) {
+	public ResponseEntity<Paleta> getPaletaById(@RequestParam Long id) {
 		
 		return this.paletaService.getPaletaById(id);
 		
@@ -46,7 +48,7 @@ public class PaletaController {
 	
 	@GetMapping("/paletaByName")
 	@ResponseBody
-	public Paleta getByName(@RequestParam String name) {
+	public Optional<Paleta> getByName(@RequestParam String name) {
 		
 		return this.paletaService.getPaletaByName(name);
 		
