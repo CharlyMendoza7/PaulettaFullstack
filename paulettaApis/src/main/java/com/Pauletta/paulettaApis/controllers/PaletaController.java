@@ -47,7 +47,6 @@ public class PaletaController {
 	}*/
 	
 	@GetMapping("/paletaByName")
-	@ResponseBody
 	public Optional<Paleta> getByName(@RequestParam String name) {
 		
 		return this.paletaService.getPaletaByName(name);
@@ -67,6 +66,7 @@ public class PaletaController {
 		return this.paletaService.updateById(paleta, id);
 		
 	}
+	
 	
 	
 }

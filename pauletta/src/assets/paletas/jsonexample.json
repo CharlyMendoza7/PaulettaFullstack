@@ -1,100 +1,100 @@
 [
     {
-        "nombre": "bubulubu",
+        "name": "bubulubu",
         "url": "https://i.ibb.co/Jp8bqFT/bubulubu.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta con el sabor del dulce bubulubu, esto con una deliciosa cubierta de chocolate",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta con el sabor del dulce bubulubu, esto con una deliciosa cubierta de chocolate",
+        "price": 35
     },
     {
-        "nombre": "chocorrol",
+        "name": "chocorrol",
         "url": "https://i.ibb.co/ZM67Tgz/chocorrol.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta con toque de vainilla con el sabor del pastelito chocorrol, esto con una deliciosa cubierta de chocolate",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta con toque de vainilla con el sabor del pastelito chocorrol, esto con una deliciosa cubierta de chocolate",
+        "price": 35
     },
     {
-        "nombre": "chocotorro",
+        "name": "chocotorro",
         "url": "https://i.ibb.co/hBDLGwv/chocotorro.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta de chocolate con el sabor del pastelito chocotorro, esto con una deliciosa cubierta de chocolate rosa",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta de chocolate con el sabor del pastelito chocotorro, esto con una deliciosa cubierta de chocolate rosa",
+        "price": 35
     },
     {
-        "nombre": "crunch",
+        "name": "crunch",
         "url": "https://i.ibb.co/FBLz6Wf/crunch.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta de chocolate con el sabor del dulce crunch, esto con una deliciosa cubierta de chocolate",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta de chocolate con el sabor del dulce crunch, esto con una deliciosa cubierta de chocolate",
+        "price": 35
     },
     {
-        "nombre": "dálmata",
+        "name": "dálmata",
         "url": "https://i.ibb.co/bHz6Khh/dalmata.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta de chocolate con el sabor del pastelito dalmata, esto con una deliciosa cubierta de chocolate blanco",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta de chocolate con el sabor del pastelito dalmata, esto con una deliciosa cubierta de chocolate blanco",
+        "price": 35
     },
     {
-        "nombre": "gansito",
+        "name": "gansito",
         "url": "https://i.ibb.co/b1dFyW7/gansito.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta con el sabor del pastelito gansito, esto con una deliciosa cubierta de chocolate",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta con el sabor del pastelito gansito, esto con una deliciosa cubierta de chocolate",
+        "price": 35
     },
     {
-        "nombre": "kinder",
+        "name": "kinder",
         "url": "https://i.ibb.co/dp9qrK1/kinder.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta con el sabor del dulce kinder chocolate, esto con una deliciosa cubierta de chocolate",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta con el sabor del dulce kinder chocolate, esto con una deliciosa cubierta de chocolate",
+        "price": 35
     },
     {
-        "nombre": "kinder bueno",
+        "name": "kinder bueno",
         "url": "https://i.ibb.co/8b0LYbv/kinderbueno.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta con el sabor del dulce de kinder bueno, esto con una deliciosa cubierta de chocolate",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta con el sabor del dulce de kinder bueno, esto con una deliciosa cubierta de chocolate",
+        "price": 35
     },
     {
-        "nombre": "kinder delice",
+        "name": "kinder delice",
         "url": "https://i.ibb.co/q9CfHVq/kinderdelice.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta de chocolate con el sabor del pastelito kinder delice, esto con una deliciosa cubierta de chocolate",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta de chocolate con el sabor del pastelito kinder delice, esto con una deliciosa cubierta de chocolate",
+        "price": 35
     },
     {
-        "nombre": "pingüino",
+        "name": "pingüino",
         "url": "https://i.ibb.co/f8QbfZn/pinguino.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta con toque de vainilla con el sabor del pastelito pingüino, esto con una deliciosa cubierta de chocolate",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta con toque de vainilla con el sabor del pastelito pingüino, esto con una deliciosa cubierta de chocolate",
+        "price": 35
     },
     {
-        "nombre": "pulparindo",
+        "name": "pulparindo",
         "url": "https://i.ibb.co/qxfGbSF/pulparindo.jpg",
-        "tipo": "agua",
-        "desc": "Combinamos el delicioso sabor del tamarindo con el rico y picoso sabor del dulce pulparindo",
-        "precio": 27
+        "type": "agua",
+        "descrip": "Combinamos el delicioso sabor del tamarindo con el rico y picoso sabor del dulce pulparindo",
+        "price": 27
     },
     {
-        "nombre": "skwinkles",
+        "name": "skwinkles",
         "url": "https://i.ibb.co/9stHSGY/skwinkles.jpg",
-        "tipo": "agua",
-        "desc": "Combinamos el delicioso sabor de la fresa con el rico y acido sabor del swkinkles",
-        "precio": 27
+        "type": "agua",
+        "descrip": "Combinamos el delicioso sabor de la fresa con el rico y acido sabor del swkinkles",
+        "price": 27
     },
     {
-        "nombre": "snickers",
+        "name": "snickers",
         "url": "https://i.ibb.co/nkCYTY3/snickers.jpg",
-        "tipo": "cubierta",
-        "desc": "Combinamos el delicioso sabor de una paleta con el sabor del dulce snickers, esto con una deliciosa cubierta de chocolate",
-        "precio": 35
+        "type": "cubierta",
+        "descrip": "Combinamos el delicioso sabor de una paleta con el sabor del dulce snickers, esto con una deliciosa cubierta de chocolate",
+        "price": 35
     },
     {
-        "nombre": "picafresa",
+        "name": "picafresa",
         "url": "https://i.ibb.co/wztWRBK/picafresa.jpg",
-        "tipo": "agua",
-        "desc": "Combinamos el delicioso sabor de la fresa con el rico y acido sabor de la picafresa",
-        "precio": 27
+        "type": "agua",
+        "descrip": "Combinamos el delicioso sabor de la fresa con el rico y acido sabor de la picafresa",
+        "price": 27
     }
 ]
